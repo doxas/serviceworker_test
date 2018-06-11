@@ -1,0 +1,26 @@
+{
+  "name": "serviceworker_test",
+  "version": "0.0.1",
+  "description": "my first service worker test.",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "set NODE_ENV=release&& webpack -p",
+    "debug": "webpack --debug -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doxas/serviceworker_test.git"
+  },
+  "author": "doxas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doxas/serviceworker_test/issues"
+  },
+  "homepage": "https://github.com/doxas/serviceworker_test#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
+  }
+}
